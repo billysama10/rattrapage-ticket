@@ -1,0 +1,23 @@
+:root {
+  --fond: #f5f6f8;
+  --carte: #ffffff;
+  --texte: #1f2430;
+  --texte-doux: #5d6577;
+  --bordure: #dde1e8;
+  --accent: #2f5bea;
+  --accent-fonce: #2448c4;
+  --erreur: #b3261e;
+  --erreur-fond: #fdeceb;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  color: var(--texte);
+  background: var(--fond);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
